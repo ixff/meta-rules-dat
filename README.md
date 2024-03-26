@@ -3,7 +3,7 @@
 1. 本仓库目的在于让PT站点tracker服务器域名直连而不走代理。
 2. 相比原仓库的变化：
    
-   数据源由 [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) --> [ixff/domain-list-community](https://github.com/ixff/domain-list-community)、[Loyalsoldier/domain-list-custom](https://github.com/Loyalsoldier/domain-list-custom) --> [ixff/domain-list-custom](https://github.com/ixff/domain-list-custom)，其唯一改变是完善了[data/category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt)。
+   数据源由 [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) --> [ixff/domain-list-community](https://github.com/ixff/domain-list-community)、[Loyalsoldier/domain-list-custom](https://github.com/Loyalsoldier/domain-list-custom) --> [ixff/domain-list-custom](https://github.com/ixff/domain-list-custom)，其唯一改变是完善了[category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt)。
 3. 使用方法：
 
    `geosite.dat`下载地址：[GitHub Release](https://github.com/ixff/v2ray-rules-dat/releases/latest/download/geosite.dat)
