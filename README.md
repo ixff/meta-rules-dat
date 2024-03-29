@@ -5,16 +5,19 @@
    
    数据源由 [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) --> [ixff/domain-list-community](https://github.com/ixff/domain-list-community)、[Loyalsoldier/domain-list-custom](https://github.com/Loyalsoldier/domain-list-custom) --> [ixff/domain-list-custom](https://github.com/ixff/domain-list-custom)，其唯一改变是完善了[category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt)。
 3. 使用方法：
+   
+   [下载本仓库的 *geosite.dat* 文件](https://github.com/ixff/v2ray-rules-dat/releases/latest/download/geosite.dat)，覆盖软件中已有的，然后在自定义规则中添加相应的直连规则，让全部PT站点域名(geosite:category-pt)都走直连。
 
-   `geosite.dat`下载地址：[GitHub Release](https://github.com/ixff/v2ray-rules-dat/releases/latest/download/geosite.dat)
+   > 具体的规则语法请参考所使用的软件，
+   >
+   > 可能只需要添加这样一行：```geosite:category-pt```
+   >
+   > mihomo内核则是这样的形式：```- GEOSITE, category-pt, DIRECT```
 
-   添加规则让全部PT站点域名都走直连：
-   ```
-   geosite:category-pt
-   ```
+   更多使用情形请参考2中的说明。
+
    （注：可能会有“漏网之鱼”，原因见2中数据源仓库category-pt文件顶部的说明。）
    
-   规则语法请参考所使用的软件，更多使用情形请参考2中的说明。
 4. 如果你发现缺少某些站点域名或其tracker域名，请[到 ixff/domain-list-community 仓库提issue](https://github.com/ixff/domain-list-community/issues/new?assignees=&labels=&projects=&template=%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0.md&title=%E3%80%90%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0%E3%80%91XXX)，维护该列表需要大家的共同努力。
    
 
