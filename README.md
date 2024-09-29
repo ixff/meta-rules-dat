@@ -1,3 +1,19 @@
+## 说明
+
+1. 适用于 Pter 的代理规则列表。~~妈妈再也不用担心我的tracker走代理而被标盒啦。~~
+2. 相比原仓库的变化：完善了 [category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt) 类别。
+3. 使用方法：
+   
+   PT 涉及到的类别 `category-pt`、`category-pt@!cn` ，使用方法见[⬇原仓库README](#原仓库README)。
+   
+   mihomo内核还可以搭配 [`applications`](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt) 类别使用，方法见 [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules?tab=readme-ov-file#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)。
+   
+4. 如果你发现缺少某些站点域名或其tracker域名，请[到 ixff/domain-list-community 仓库提issue](https://github.com/ixff/domain-list-community/issues/new?assignees=&labels=&projects=&template=%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0.md&title=%E3%80%90%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0%E3%80%91XXX)，维护该列表需要大家的共同努力。
+
+
+<details>
+<summary><H1>原仓库README</H1></summary>
+
 ## **下载地址**：
 
 | 文件名              | Github release                                                                                                            | JSdelivr                                                                                                                           | JSdelivr-CF                                                                                                                              |
@@ -136,3 +152,4 @@ https://github.com/MetaCubeX/geo
 - [@crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
 - [@blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
 
+</details>
