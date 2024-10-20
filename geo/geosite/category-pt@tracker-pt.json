@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "connects.icu",
+        "nextpt.net",
+        "announce.haidan.video",
+        "a.hdarea.club",
+        "t.hdhome.org",
+        "tracker.hhan.club",
+        "tracker.icc2022.xyz",
+        "tracker1.icc2022.de",
+        "tracker2.icc2022.de",
+        "tracker3.icc2022.de",
+        "tracker1.czhch.com",
+        "tracker2.czhch.com",
+        "tracker3.czhch.com",
+        "tra1.m-team.cc",
+        "tra1.m-team.io",
+        "ipv6-tracker.m-team.io",
+        "www.nicept.net",
+        "www.open.cd",
+        "ipv4.open.cd",
+        "trakcer.sjtu.edu.cn",
+        "chdbits.xyz",
+        "tracker.rainbowisland.co",
+        "on.springsunday.net",
+        "tracker-public.tjupt.org",
+        "reactor.filelist.io",
+        "hdts-announce.ru",
+        "localhost.stackoverflow.tech",
+        "routing.bgp.technology",
+        "ssl.empirehost.me",
+        "tracker.tleechreload.org"
+      ],
+      "domain_suffix": [
+        "1ptba.com",
+        "52pt.site",
+        "byr.pt",
+        "hdatmos.club",
+        "hdfans.org",
+        "hdvideo.one",
+        "hhanclub.top",
+        "hudbt.hust.edu.cn",
+        "kufei.org",
+        "pt.okfun.org",
+        "our.kelu.one",
+        "ourbits.club",
+        "pt.btschool.club",
+        "pt.eastgame.org",
+        "ptchdbits.co",
+        "chddiy.xyz",
+        "ptzone.xyz",
+        "raingfh.top",
+        "rousi.zip",
+        "pt.soulvoice.club"
+      ]
+    }
+  ]
+}
