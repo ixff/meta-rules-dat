@@ -52,7 +52,7 @@ jobs:
         # git rebase upstream/master -X theirs
         git rebase upstream/master || {
           echo "Checking for conflicts..."
-          if git status --porcelain | grep -p '^UU '; then
+          if git status --porcelain | grep '^UU '; then
             git status --porcelain | grep '^UU ' | cut -c 4- | while read -r filename; do
               echo "Resolving conflict in $filename by choosing 'theirs' version"
               git checkout --theirs -- "$filename"
