@@ -1,14 +1,14 @@
 ## 说明
 
 1. 适用于 Pter 的代理规则列表。~~妈妈再也不用担心我的tracker走代理而被标盒啦。~~
-2. 相比原仓库的变化：~~完善了 [category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt) 类别~~。 补充完善了原仓库中的 [category-pt](https://github.com/v2fly/domain-list-community/blob/master/data/category-pt)，并拆分为 [category-pt-cn](https://github.com/ixff/domain-list-community/blob/master/data/category-pt-cn)、[category-pt-!cn](https://github.com/ixff/domain-list-community/blob/master/data/category-pt-!cn) 两部分。**[category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt) 不再维护，为避免误走代理，目前暂时保留，但未来会删除**。
+2. 相比原仓库的变化：完善了``category-pt``，并拆分为 [category-pt-cn](https://github.com/ixff/domain-list-community/blob/master/data/category-pt-cn)、[category-pt-!cn](https://github.com/ixff/domain-list-community/blob/master/data/category-pt-!cn) 两部分，几乎包括了全部的PT内站和外站的域名，以方便设置 Tracker 直连规则。 [category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt) 出于兼容性目的而保留，建议直接使用以上两个分类。
 3. 使用方法：
    
    PT 涉及到的类别 `category-pt-cn`、`category-pt-!cn`、`category-pt-!cn@!cn` ，使用方法见[⬇原仓库README](#原仓库README)。
    
    mihomo内核还可以搭配 [`applications`](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt) 类别使用，方法见 [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules?tab=readme-ov-file#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)。
    
-4. 如果你发现缺少某些站点域名或其tracker域名，请[到 ixff/domain-list-community 仓库提issue](https://github.com/ixff/domain-list-community/issues/new?assignees=&labels=&projects=&template=%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0.md&title=%E3%80%90%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0%E3%80%91XXX)，维护该列表需要大家的共同努力。
+4. 如果你发现缺少某些站点域名或其tracker域名，请先阅读 [category-pt](https://github.com/ixff/domain-list-community/blob/master/data/category-pt) 的说明，然后[提issue](https://github.com/ixff/domain-list-community/issues/new?assignees=&labels=&projects=&template=%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0.md&title=%E3%80%90%E5%9F%9F%E5%90%8D%E6%9B%B4%E6%96%B0%E3%80%91XXX)。
 
 
 <details>
