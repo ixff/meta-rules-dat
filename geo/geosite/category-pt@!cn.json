@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "avistaz.to",
+        "cinemaz.to",
+        "exoticaz.to"
+      ]
+    }
+  ]
+}
